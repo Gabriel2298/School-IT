@@ -2,7 +2,7 @@ package Sesiunea1;
 
 import java.util.Scanner;
 
-public class Challenge {
+public class Challenge{
 
     public static void main(String[] args) {
      cha9();
