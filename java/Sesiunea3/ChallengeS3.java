@@ -107,6 +107,8 @@ public class ChallengeS3 {
 
         System.out.println(firstNumber <= secondNumber);
         System.out.println(firstNumber >= secondNumber);
+
+        inputScanner.close();
     }
 //     7. Write a program where you perform operations
 //        between an integer and a double. Display the result
@@ -205,6 +207,9 @@ public class ChallengeS3 {
 
         System.out.println("Discount price is: " + discountPrice);
         System.out.println("After discount the product have this final price: " + finalPrice);
+
+        sc.close();
+
     }
 //     14. Create a program that checks if a user entered number is within a specific range
 //     (e.g., 1-100). Use relational operators for the checks.
@@ -221,6 +226,7 @@ public class ChallengeS3 {
         } else {
             System.out.println("The number is not in range of 1-100.");
 
+            sc.close();
 
         }
 
