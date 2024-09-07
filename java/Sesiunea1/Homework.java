@@ -42,7 +42,7 @@ public class Homework {
 //    (addition, subtraction, multiplication, division, and modulus)
 //    on two numbers. The numbers can be hard-coded into the program. Print the result of each operation.
 
-//      homework3 // This need write to main class.
+//      homework3(); // This need write to main class.
 
     public static void homework3() {
 
@@ -65,17 +65,17 @@ public class Homework {
 //     4. Simple Input/Output: Write a program that asks the user to enter two numbers,
 //     performs addition on those numbers, and prints out the result.
 
-//    homework4 // This need to write in main class.
+//    homework4(); // This need to write in main class.
 
     public static void homework4() {
 
         Scanner inputScanner = new Scanner(System.in);
 
         System.out.println("Scrie primul numar: ");
-        int primulNumar = Integer.parseInt(inputScanner.nextLine());
+        int primulNumar = inputScanner.nextInt();
 
         System.out.println("Introduceti al doilea numar: ");
-        int numarulDoi = Integer.parseInt(inputScanner.nextLine());
+        int numarulDoi = inputScanner.nextInt();
 
         int rezult = primulNumar + numarulDoi;
         System.out.println("Adunarea a doua numere " + rezult);
