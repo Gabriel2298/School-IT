@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ChallengeS3 {
     public static void main(String[] args) {
 
-
+chal6();
 
 
     }
@@ -148,6 +148,7 @@ public class ChallengeS3 {
 
 
     public static void chal10() {
+
         int n1 = 287;
         int n2 = 142;
         int reversNr1 = -n1;
@@ -209,7 +210,6 @@ public class ChallengeS3 {
         System.out.println("After discount the product have this final price: " + finalPrice);
 
         sc.close();
-
     }
 //     14. Create a program that checks if a user entered number is within a specific range
 //     (e.g., 1-100). Use relational operators for the checks.
@@ -227,9 +227,6 @@ public class ChallengeS3 {
             System.out.println("The number is not in range of 1-100.");
 
             sc.close();
-
         }
-
-
     }
 }
