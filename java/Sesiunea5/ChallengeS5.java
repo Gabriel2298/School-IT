@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class ChallengeS5 {
     public static void main(String... args) {
-        chal6();
 
     }
 //    1. Even or Odd Checker
@@ -158,15 +157,15 @@ public class ChallengeS5 {
 //    Write a program that asks the user to enter numbers. The program should continue prompting the user until they
 //    enter -1. After they enter -1, print the sum of all numbers entered (excluding -1).
 
-//    chal6();  // Write this in main class for working program.
-    private static void chal6(){
+    //    chal6();  // Write this in main class for working program.
+    private static void chal6() {
         Scanner scanner = new Scanner(System.in);
         int number;
         int sum = 0;
         while (true) {
-            System.out.println("Introduce a number ( when you write -1 program will be stop) :" );
+            System.out.println("Introduce a number ( when you write -1 program will be stop) :");
             number = scanner.nextInt();
-            if (number == -1){
+            if (number == -1) {
                 break;
             }
             sum += number;
@@ -206,7 +205,7 @@ public class ChallengeS5 {
 
 
         } while (guessUserNumber != number);
-        if (guessUserNumber == number){
+        if (guessUserNumber == number) {
             System.out.println("Congratulation, you guessed the number!");
         }
         sc.close();

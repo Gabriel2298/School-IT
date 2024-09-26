@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class ChallengeS4 {
     public static void main(String[] args) {
-        chal11();
 
     }
 //    1. Write a Java program where you create two String objects named
@@ -107,17 +106,17 @@ public class ChallengeS4 {
 //    chal6(); // Write this in main class.
 
 
-    private static void chal6(){
+    private static void chal6() {
 
         Scanner inputScanner = new Scanner(System.in);
 
         System.out.println("The temperature from your city is: ");
         int temp = inputScanner.nextInt();
-        if (temp< 20){
+        if (temp < 20) {
             System.out.println("Cold!");
         } else if (temp > 30) {
             System.out.println("Hot!");
-        }else
+        } else
             System.out.println("Warm!");
 
         inputScanner.close();
@@ -127,7 +126,7 @@ public class ChallengeS4 {
 // Declare three variables sideOne, sideTwo and sideThree to represent the sides of the triangle.
 // Use the ternary operator to determine and print whether the triangle is "Equilateral", "Isosceles", or "Scalene".
 
-//    chal7(); // This need to write in main class.
+    //    chal7(); // This need to write in main class.
     public static void chal7() {
         Scanner inputScanner = new Scanner(System.in);
 
@@ -137,18 +136,18 @@ public class ChallengeS4 {
         System.out.println("Write the second side of triangle: ");
         sideTwo = inputScanner.nextInt();
         System.out.println("Write the third side of triangle: ");
-        sideThree= inputScanner.nextInt();
+        sideThree = inputScanner.nextInt();
 
         System.out.println("the first side is: " + sideOne + " " + ", the second side is: " + sideTwo + " "
-                + " and the tird side is: " + sideThree + "."  );
+                + " and the tird side is: " + sideThree + ".");
 
-        if (sideOne==sideTwo && sideTwo==sideThree){
+        if (sideOne == sideTwo && sideTwo == sideThree) {
             System.out.println("The triangle is equilateral! ");
-        } else if (sideOne==sideTwo || sideTwo==sideThree || sideOne==sideThree) {
+        } else if (sideOne == sideTwo || sideTwo == sideThree || sideOne == sideThree) {
             System.out.println("The triangle is isosceles! ");
-            
-        }else
-        System.out.println("The triangle is scalene! ");
+
+        } else
+            System.out.println("The triangle is scalene! ");
 
         inputScanner.close();
     }
@@ -161,11 +160,11 @@ public class ChallengeS4 {
     public static void chal8() {
         Scanner inputScanner = new Scanner(System.in);
 
-        int i,result= 1;
+        int i, result = 1;
         int number;
         System.out.println("Write the number you want to factor: ");
         number = inputScanner.nextInt();
-        for (i =1;i<= number;i++){
+        for (i = 1; i <= number; i++) {
             System.out.println("Factorial numbers for " + number + " is " + i);
 
             result *= i;
@@ -197,7 +196,7 @@ public class ChallengeS4 {
 
 //    chal10(); // This need to write in main class!
 
-    private static void chal10(){
+    private static void chal10() {
         ArrayList<String> listOne = new ArrayList<>();
         listOne.add("Ioan");
         listOne.add("Gabi");
@@ -222,22 +221,15 @@ public class ChallengeS4 {
 //    chal11(); // Write this in main class.
 
     public static void chal11() {
-        int a = 10, b = 20 , c = 30 , d = 40;
+        int a = 10, b = 20, c = 30, d = 40;
         int additionResult = a + b;
         int multiplicationResult = c * d;
 
         System.out.println("The result of addition a + b = " + additionResult);
-        System.out.println("The result of multiplication c * d = " +multiplicationResult);
+        System.out.println("The result of multiplication c * d = " + multiplicationResult);
 
 
     }
 
-
-
-
-
-
-
-    
 
 }

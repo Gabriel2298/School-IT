@@ -5,9 +5,6 @@ import java.util.Scanner;
 public class ChallengeS3 {
     public static void main(String[] args) {
 
-chal6();
-
-
     }
 //   1. Write a Java program to take two numbers as input and display the result of addition,
 //      subtraction, multiplication, division, and modulus.
@@ -25,7 +22,6 @@ chal6();
         System.out.println("Result of multiplication = " + rezMul);
         System.out.println("Result of division = " + rezDiv);
         System.out.println("Result of modulus = " + rezMod);
-
     }
 //   2. Create a Java program where you increment and decrement the same variable.
 //      Display the value of the variable after each operation.
@@ -225,7 +221,6 @@ chal6();
             System.out.println("The number is within the range of 1 to 100.");
         } else {
             System.out.println("The number is not in range of 1-100.");
-
             sc.close();
         }
     }
