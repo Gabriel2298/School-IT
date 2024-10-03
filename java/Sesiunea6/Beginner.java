@@ -1,10 +1,7 @@
 package Sesiunea6;
-
 import java.util.Scanner;
-
 public class Beginner {
     public static void main(String[] args) {
-
     }
 //  1.Reverse a String
 //    Description: Write a program to reverse an input string using StringBuilder.
@@ -16,10 +13,8 @@ public class Beginner {
         String reversedString = sb.toString();
         System.out.println("The reverse string is --> " + reversedString);
     }
-
 //      2.Palindrome Checker
 //        Description: Check if a string is a palindrome using StringBuilder.
-
 //      chal2();  // This need to write in main class.
 
     private static void chal2() {

@@ -4,11 +4,10 @@ import java.util.Scanner;
 
 public class ChallengeS3 {
     public static void main(String[] args) {
-
     }
-//   1. Write a Java program to take two numbers as input and display the result of addition,
-//      subtraction, multiplication, division, and modulus.
 
+    //   1. Write a Java program to take two numbers as input and display the result of addition,
+//      subtraction, multiplication, division, and modulus.
     //    chal1(); // This need to write in main class.
     public static void chal1() {
 
@@ -25,7 +24,6 @@ public class ChallengeS3 {
     }
 //   2. Create a Java program where you increment and decrement the same variable.
 //      Display the value of the variable after each operation.
-
 //      chal2(); // This need to write in main class.
 
     public static void chal2() {
@@ -36,9 +34,9 @@ public class ChallengeS3 {
         System.out.println("Increment of b = " + b);
 
     }
-//   3. Write a program to check if a number is positive or negative
-//      using logical complement operator.
 
+    //   3. Write a program to check if a number is positive or negative
+//      using logical complement operator.
     //      chal3(); // Write this in main class.
     public static void chal3() {
 
