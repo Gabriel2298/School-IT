@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ChallengeS4 {
     public static void main(String[] args) {
-
+chal10();
     }
 //    1. Write a Java program where you create two String objects named
 //    stringOne and stringTwo with the same value "OpenAI". Check and print whether
@@ -227,9 +227,5 @@ public class ChallengeS4 {
 
         System.out.println("The result of addition a + b = " + additionResult);
         System.out.println("The result of multiplication c * d = " + multiplicationResult);
-
-
     }
-
-
 }
