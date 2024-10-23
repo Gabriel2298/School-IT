@@ -44,10 +44,11 @@ public class ExpenseTrackerApp {
                     String category = scanner.nextLine();
                     System.out.print("Entry amount: ");
                     double amount = scanner.nextDouble();
-                    System.out.print("Entry details:  ");
-                    String description = scanner.nextLine();
                     scanner.nextLine();
-                    expenseTracker.addExpense(new Expense(category, amount, date, description));
+                    System.out.print("Entry details:  ");
+                    String details = scanner.nextLine();
+
+                    expenseTracker.addExpense(new Expense(category, amount, date, details));
                     break;
                 case 2:
                     expenseTracker.viewExpenses();
@@ -65,8 +66,8 @@ public class ExpenseTrackerApp {
                     amount = scanner.nextDouble();
                     scanner.nextLine();
                     System.out.print("Entry new details: ");
-                    description = scanner.nextLine();
-                    expenseTracker.editExpense(category, index1, new Expense(newCategory, amount, date, description));
+                    details = scanner.nextLine();
+                    expenseTracker.editExpense(category, index1, new Expense(newCategory, amount, date, details));
                     break;
                 case 3:
                     expenseTracker.viewExpenses();
@@ -101,6 +102,5 @@ public class ExpenseTrackerApp {
         }
         scanner.close();
     }
-
 }
 

@@ -14,31 +14,24 @@ public class Expense {
         this.category = category;
         this.details = details;
     }
-
     public double getAmount() {
         return amount;
     }
-
     public String getCategory() {
         return category;
     }
-
     public LocalDate getDate() {
         return date;
     }
-
     public String getDetails() {
         return details;
     }
-
     public void setAmount(double amount) {
         this.amount = amount;
     }
-
     public void setCategory(String category) {
         this.category = category;
     }
-
     public void setDate(LocalDate date) {
         this.date = date;
     }
@@ -46,9 +39,8 @@ public class Expense {
     public void setDetails(String details) {
         this.details = details;
     }
-
     @Override
     public String toString() {
-        return "Expense{" + "date=" + date + ", category='" + category +  ", details='" + details + '\'' + ", amount=" + amount + '}';
+        return "Expense{" + " category='" + category + "'" + ", amount='" + amount + "'" + ", date='" + date + "'" + ", details='" + details + "'}";
     }
 }

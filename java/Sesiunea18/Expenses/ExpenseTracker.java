@@ -9,18 +9,16 @@ import java.util.List;
 import java.util.Map;
 
 public class ExpenseTracker {
-    private Map<String, List<Expense>> expenseList;
+    private final Map<String, List<Expense>> expenseList;
 
     public ExpenseTracker() {
         expenseList = new HashMap<>();
     }
-
     public void addExpense(Expense expense) {
         expenseList
                 .computeIfAbsent(expense.getCategory(), k -> new ArrayList<>())
                 .add(expense);
     }
-
     public void editExpense(String category, int i, Expense newExpense) {
         List<Expense> expenses = expenseList.get(category);
         if (expenses != null && i >= 0 && i < expenseList.size()) {
@@ -29,7 +27,6 @@ public class ExpenseTracker {
             System.out.println("Invalid index or category!");
         }
     }
-
     public void deleteExpense(String category, int i) {
         List<Expense> expenses = expenseList.get(category);
         if (expenses != null && i >= 0 && i < expenseList.size()) {
