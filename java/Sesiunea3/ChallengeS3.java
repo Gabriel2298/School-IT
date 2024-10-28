@@ -1,5 +1,4 @@
 package Sesiunea3;
-
 import java.util.Scanner;
 
 public class ChallengeS3 {

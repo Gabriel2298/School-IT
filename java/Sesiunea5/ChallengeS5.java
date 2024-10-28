@@ -209,9 +209,7 @@ public class ChallengeS5 {
             System.out.println("Congratulation, you guessed the number!");
         }
         sc.close();
-
     }
-
 }
 
 

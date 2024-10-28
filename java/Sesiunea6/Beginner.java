@@ -86,6 +86,7 @@ public class Beginner {
     public static boolean vowels(char c) {
         return "AEIOUaeiou".indexOf(c) != -1;
     }
+
 //    5.Word Capitalizer
 //      Description: Capitalize the first letter of every word in a sentence using StringBuilder.
 
